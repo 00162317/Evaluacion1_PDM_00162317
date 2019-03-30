@@ -283,5 +283,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="10dp"
-        android:text="SHARE"/>
+        android:text="SHARE"
+        android:id="@+id/btn_share"
+        />
 </LinearLayout>
