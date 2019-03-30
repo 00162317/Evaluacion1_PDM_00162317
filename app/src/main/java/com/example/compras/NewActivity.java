@@ -42,6 +42,7 @@ public class NewActivity extends AppCompatActivity {
         Intent intentoTres = new Intent();
         intentoTres.setAction(Intent.ACTION_SEND);
         intentoTres.setType("text/plain");
+
         intentoTres.putExtra(Intent.EXTRA_TEXT,texto[0]);
 
         startActivity(intentoTres);
