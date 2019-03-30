@@ -33,19 +33,16 @@ public class NewActivity extends AppCompatActivity {
 
         getNumeroIntent();
 
-        Intent intentDos  = getIntent();
-        String[] texto = intentDos.getStringArrayExtra(Intent.EXTRA_TEXT);
-        /*if(intentDos!= null){
-            valorUno.setText(texto[0]);
-        }*/
+        String texto = totalProducto.getText().toString();
+
         compartir.setOnClickListener(v->{
-        Intent intentoTres = new Intent();
-        intentoTres.setAction(Intent.ACTION_SEND);
-        intentoTres.setType("text/plain");
+            Intent intentoTres = new Intent();
+            intentoTres.setAction(Intent.ACTION_SEND);
+            intentoTres.setType("text/plain");
 
-        intentoTres.putExtra(Intent.EXTRA_TEXT,texto[0]);
+            intentoTres.putExtra(Intent.EXTRA_TEXT,texto);
 
-        startActivity(intentoTres);
+            startActivity(intentoTres);
         });
 
 
