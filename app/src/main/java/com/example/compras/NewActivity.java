@@ -25,6 +25,7 @@ public class NewActivity extends AppCompatActivity {
         valorSiete=findViewById(R.id.valor7);
         valorOcho=findViewById(R.id.valor8);
         valorNueve=findViewById(R.id.valor9);
+        totalProducto=findViewById(R.id.set_total);
 
         getNumeroIntent();
 
@@ -53,5 +54,6 @@ public class NewActivity extends AppCompatActivity {
         valorSiete.setText(mIntent.getStringExtra("pro7"));
         valorOcho.setText(mIntent.getStringExtra("pro8"));
         valorNueve.setText(mIntent.getStringExtra("pro9"));
+        totalProducto.setText(mIntent.getStringExtra("total"));
     }
 }

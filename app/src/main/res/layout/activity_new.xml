@@ -30,6 +30,15 @@
             android:layout_height="wrap_content"
             android:text=" "
             android:id="@+id/set_email"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de la compra: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/set_total"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

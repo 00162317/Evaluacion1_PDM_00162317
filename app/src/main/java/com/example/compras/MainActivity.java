@@ -130,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
             intento1.putExtra("pro7", String.valueOf(var7.get()));
             intento1.putExtra("pro8", String.valueOf(var8.get()));
             intento1.putExtra("pro9", String.valueOf(var9.get()));
+            intento1.putExtra("total",String.valueOf(total.get()));
 
             startActivity(intento1);
 
