@@ -33,8 +33,7 @@ public class NewActivity extends AppCompatActivity {
 
         getNumeroIntent();
 
-        String texto = "El total de producto es: " +
-                ""+totalProducto.getText().toString();
+        String texto = "El total de producto es: "+totalProducto.getText().toString();
 
         compartir.setOnClickListener(v->{
             Intent intentoTres = new Intent();
